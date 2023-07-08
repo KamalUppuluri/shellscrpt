@@ -1,0 +1,4 @@
+#!/bin/bash
+
+secondsmallest=`printf "%s\n" $@ | sort | head -2 | tail -1`
+echo " Second Smallest number is $secondsmallest"
